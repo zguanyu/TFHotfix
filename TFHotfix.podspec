@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/TimeFaceCoder/TFHotfix.git"}
   s.source_files  = "TFHotfix/TFHotfix/**/*.{h,m,c}"
   s.requires_arc = true
-  s.dependency 'TFNetwork', :git=> 'https://github.com/TimeFaceCoder/TFNetwork.git'
+  s.dependency 'TFNetwork', :podspec=> 'https://raw.githubusercontent.com/TimeFaceCoder/TFNetwork/master/TFNetwork.podspec'
 end

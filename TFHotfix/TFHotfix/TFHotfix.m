@@ -8,12 +8,14 @@
 
 #import "TFHotfix.h"
 #import <JSPatch/JPEngine.h>
+#import <AFNetworking/AFNetworking.h>
 #import "RegisterApp.h"
 #import "SyncHotfix.h"
 #import "DownLoadFixFile.h"
 
-NSString * const kTFFixFileName = @"fixfile";
-
+NSString * const kTFFixFileName       = @"fixfile";
+NSString * const kTFFixRegisterAppURL = @"";
+NSString * const kTFFixSyncURL        = @"";
 
 @implementation TFHotfix {
     /// fix 文件本地存储目录，同一时间只允许存在一个fix文件
