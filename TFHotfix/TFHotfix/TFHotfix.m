@@ -60,19 +60,18 @@ NSString * const kTFFixSyncURL        = @"";
         [JPEngine startEngine];
         [self evaluateLoacalScript];
     } failure:^(__kindof TFBaseRequest *request) {
-        
     }];
 }
 
 - (void)sync {
     SyncHotfix *syncHotfix = [[SyncHotfix alloc] initWithAppKey:_appKey];
     [syncHotfix startWithCompletionBlockWithSuccess:^(__kindof TFBaseRequest *request) {
-        
-    } failure:^(__kindof TFBaseRequest *request) {
         NSString *fileUrl = [request.responseObject objectForKey:@"fileUrl"];
         if (fileUrl.length) {
             [self downloadFixFile:fileUrl];
         }
+    } failure:^(__kindof TFBaseRequest *request) {
+        
     }];}
 
 #pragma mark - Download fix file from server

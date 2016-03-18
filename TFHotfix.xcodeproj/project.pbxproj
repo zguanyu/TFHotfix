@@ -21,6 +21,7 @@
 		B00632171C9BE2E0004B5E0C /* RegisterApp.m in Sources */ = {isa = PBXBuildFile; fileRef = B00632161C9BE2E0004B5E0C /* RegisterApp.m */; };
 		B006321A1C9BE4A6004B5E0C /* SyncHotfix.m in Sources */ = {isa = PBXBuildFile; fileRef = B00632191C9BE4A6004B5E0C /* SyncHotfix.m */; };
 		B006321D1C9BE6AF004B5E0C /* DownLoadFixFile.m in Sources */ = {isa = PBXBuildFile; fileRef = B006321C1C9BE6AF004B5E0C /* DownLoadFixFile.m */; };
+		B00632201C9C0091004B5E0C /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B006321F1C9C0091004B5E0C /* OtherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		B00632191C9BE4A6004B5E0C /* SyncHotfix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncHotfix.m; sourceTree = "<group>"; };
 		B006321B1C9BE6AF004B5E0C /* DownLoadFixFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadFixFile.h; sourceTree = "<group>"; };
 		B006321C1C9BE6AF004B5E0C /* DownLoadFixFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadFixFile.m; sourceTree = "<group>"; };
+		B006321E1C9C0091004B5E0C /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		B006321F1C9C0091004B5E0C /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
 		E25A961F6BF27A88BA161775 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F88208F15D5C4CF9AE76C2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +154,8 @@
 				B00631E81C9BCF8A004B5E0C /* LaunchScreen.storyboard */,
 				B00631EB1C9BCF8A004B5E0C /* Info.plist */,
 				B00631DA1C9BCF8A004B5E0C /* Supporting Files */,
+				B006321E1C9C0091004B5E0C /* OtherViewController.h */,
+				B006321F1C9C0091004B5E0C /* OtherViewController.m */,
 			);
 			path = TFHotfix;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B006321A1C9BE4A6004B5E0C /* SyncHotfix.m in Sources */,
+				B00632201C9C0091004B5E0C /* OtherViewController.m in Sources */,
 				B00632171C9BE2E0004B5E0C /* RegisterApp.m in Sources */,
 				B006321D1C9BE6AF004B5E0C /* DownLoadFixFile.m in Sources */,
 				B00631E21C9BCF8A004B5E0C /* ViewController.m in Sources */,
